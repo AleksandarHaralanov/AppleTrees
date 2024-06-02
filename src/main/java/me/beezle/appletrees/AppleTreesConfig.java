@@ -8,14 +8,7 @@ public class AppleTreesConfig extends Configuration {
 
     public AppleTreesConfig(File file) {
         super(file);
-        reload();
-    }
-
-    public void reload()
-    {
-        load();
         write();
-        save();
     }
 
     public void write()

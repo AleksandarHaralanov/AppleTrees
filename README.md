@@ -1,5 +1,8 @@
 # AppleTrees
 Allows for a configurable drop chance setting that makes decaying leaves drop apples and golden apples.
+
+<b>Download latest release [here](https://github.com/AleksandarHaralanov/AppleTrees/releases/latest).</b>
+
 ### Summary assuming the default config is used
 Calculations made using the small oak tree with approximately 50 leaves. Results may vary for other tree sizes.
 
