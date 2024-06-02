@@ -11,14 +11,12 @@ public class AppleTreesConfig extends Configuration {
         write();
     }
 
-    public void write()
-    {
+    public void write() {
         generateConfigOption("dropChance.Apple", 0.75);
         generateConfigOption("dropChance.goldenApple", 0.02);
     }
 
-    private void generateConfigOption(String key, Object defaultValue)
-    {
+    private void generateConfigOption(String key, Object defaultValue) {
         if (this.getProperty(key) == null) {
             this.setProperty(key, defaultValue);
         }

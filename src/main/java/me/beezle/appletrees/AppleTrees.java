@@ -25,8 +25,7 @@ public class AppleTrees extends JavaPlugin {
         return config;
     }
 
-    public static AppleTrees getInstance()
-    {
+    public static AppleTrees getInstance() {
         return instance;
     }
 }
