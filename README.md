@@ -1,7 +1,12 @@
 # AppleTrees
+Allows for a configurable drop chance setting that makes decaying leaves drop apples and golden apples.
+### Summary assuming the default config is used
+Calculations made using the small oak tree with approximately 50 leaves. Results may vary for other tree sizes.
 
-Apples have a 2% chance to drop from decaying tree leaves.
+<u>Apple</u>:
+- Apple drop chance per decaying leaf: 0.74% (approximately).
+- Probability of at least one Apple drop per tree: 31.8%.
 
-# Planned Features
-
-- Config file to modify drop chance.
+<u>Golden Apple</u>:
+- Golden Apple drop chance per decaying leaf: 0.01% (approximately).
+- Probability of at least one Golden Apple drop per Tree: 0.5%.
