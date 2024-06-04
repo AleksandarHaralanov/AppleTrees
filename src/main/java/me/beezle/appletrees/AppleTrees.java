@@ -13,7 +13,7 @@ public class AppleTrees extends JavaPlugin {
     public void onEnable() {
         instance = this;
         config = new AppleTreesConfig(new File(getDataFolder(), "config.yml"));
-        this.getServer().getPluginManager().registerEvents(new BlockHandler(), this);
+        getServer().getPluginManager().registerEvents(new BlockHandler(), this);
         System.out.print("[AppleTrees] Enabled.");
     }
 
