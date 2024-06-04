@@ -3,7 +3,9 @@ Allows for a configurable drop chance setting that makes decaying leaves drop ap
 
 <b>Download latest release [here](https://github.com/AleksandarHaralanov/AppleTrees/releases/latest).</b>
 
-### Summary assuming the default config is used
+## Summary
+#### Assuming the default config is used
+
 Calculations made using the small oak tree with approximately 50 leaves. Results may vary for other tree sizes.
 
 <u>Apple</u>:
