@@ -7,9 +7,9 @@ import java.io.File;
 public class AppleTrees extends JavaPlugin {
 
     private static AppleTrees instance;
-
     private AppleTreesConfig config;
 
+    @Override
     public void onEnable() {
         instance = this;
         config = new AppleTreesConfig(new File(getDataFolder(), "config.yml"));
@@ -17,6 +17,7 @@ public class AppleTrees extends JavaPlugin {
         System.out.print("[AppleTrees] Enabled.");
     }
 
+    @Override
     public void onDisable() {
         System.out.print("[AppleTrees] Disabled.");
     }
