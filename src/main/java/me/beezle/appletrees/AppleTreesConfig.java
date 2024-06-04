@@ -8,12 +8,17 @@ public class AppleTreesConfig extends Configuration {
 
     public AppleTreesConfig(File file) {
         super(file);
-        write();
+        if (!file.exists()) {
+            file.getParentFile().mkdirs();
+            write();
+            save();
+        }
     }
 
     public void write() {
         generateConfigOption("dropChance.Apple", 0.75);
         generateConfigOption("dropChance.goldenApple", 0.02);
+        save();
     }
 
     private void generateConfigOption(String key, Object defaultValue) {
