@@ -2,7 +2,7 @@
 Allows for a configurable drop chance setting that makes decaying leaves drop apples and golden apples.
 
 <b>Download latest release [here](https://github.com/AleksandarHaralanov/AppleTrees/releases/latest).</b>
-
+- Compiled on Adoptium JDK 8 and [Poseidon](https://github.com/RhysB/Project-Poseidon), fork of CB1060.
 ## Summary
 #### Assuming the default config is used
 
