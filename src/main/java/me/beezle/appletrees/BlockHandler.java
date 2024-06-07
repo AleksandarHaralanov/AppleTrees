@@ -22,7 +22,6 @@ public class BlockHandler implements Listener {
         double dropChance = AppleTrees.getInstance().getConfig().getDoubleConfigOption(configKey, defaultChance);
         if (dropChance > 0) {
             double randomDouble = random.nextDouble() * 100;
-
             if (randomDouble >= 0.01 && randomDouble <= dropChance) {
                 event.getBlock().getWorld().dropItemNaturally(event.getBlock().getLocation(), new ItemStack(dropMaterial, 1));
             }

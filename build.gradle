@@ -2,14 +2,14 @@ plugins {
     id 'java'
 }
 
-jar {
-    archiveBaseName = 'AppleTrees'
-}
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
     implementation files("libs/poseidon.jar")
+}
+
+jar {
+    archiveBaseName = 'AppleTrees'
 }
