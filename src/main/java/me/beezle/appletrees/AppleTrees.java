@@ -14,12 +14,12 @@ public class AppleTrees extends JavaPlugin {
         instance = this;
         config = new AppleTreesConfig(new File(getDataFolder(), "config.yml"));
         getServer().getPluginManager().registerEvents(new BlockHandler(), this);
-        System.out.print("[AppleTrees] Enabled.");
+        System.out.print("[AppleTrees v2.0.0] Enabled.");
     }
 
     @Override
     public void onDisable() {
-        System.out.print("[AppleTrees] Disabled.");
+        System.out.print("[AppleTrees v2.0.0] Disabled.");
     }
 
     public AppleTreesConfig getConfig() {
